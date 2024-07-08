@@ -1,0 +1,99 @@
+/* src/pages/HomePage.css */
+.home-page {
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    background: white;
+    padding: 100px 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.cta-buttons {
+    margin-top: 20px;
+}
+
+.cta-buttons button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.primary {
+    background: #007bff;
+    color: #fff;
+    border: none;
+}
+
+.secondary {
+    background: #6c757d;
+    color: #fff;
+    border: none;
+}
+
+.key-features,
+.testimonials,
+.how-it-works,
+.recent-news,
+.call-to-action {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.feature {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.testimonial {
+    max-width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.steps {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.step {
+    max-width: 200px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.articles {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+article {
+    max-width: 200px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
