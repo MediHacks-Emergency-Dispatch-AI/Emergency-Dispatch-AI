@@ -1,0 +1,30 @@
+.navigation {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: #333;
+    padding: 10px 20px;
+}
+
+.navigation ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation ul li {
+    display: inline;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.navigation ul li a:hover {
+    color: #007bff;
+}
