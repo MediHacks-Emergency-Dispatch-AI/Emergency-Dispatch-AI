@@ -1,28 +1,15 @@
-/* src/components/Header.css */
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background: #333;
-    color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: #333;
+  color: #fff;
 }
 
 .logo a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 24px;
-    font-weight: bold;
-}
-
-.navigation ul {
-    list-style: none;
-    display: flex;
-    gap: 15px;
-}
-
-.navigation ul li a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 16px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
 }
