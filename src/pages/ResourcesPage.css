@@ -1,0 +1,86 @@
+.resources-page {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.introduction,
+.emergency-protocols,
+.tutorials-guides,
+.documents-downloads {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.introduction h1 {
+  font-size: 2em;
+  margin-top: 2em;
+}
+
+.introduction p {
+  width: 80%;
+  margin: auto;
+  font-size: 1.2em;
+  margin-top: 1em;
+}
+
+.emergency-protocols h2,
+.tutorials-guides h2,
+.documents-downloads h2 {
+  font-size: 1.8em;
+  margin-top: 2em;
+}
+
+.search-bar {
+  width: 50%;
+  height: 2em;
+  font-size: 1em;
+  margin-top: 1em;
+  display: block;
+  margin: auto;
+}
+
+.filter-options {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1em;
+  margin: auto;
+}
+
+.dropdown {
+  width: 30%;
+  height: 2em;
+  font-size: 1em;
+}
+
+.protocol-links,
+.tutorial-links,
+.document-links {
+  width: 80%;
+  margin-top: 1em;
+  margin: auto;
+}
+
+.protocol-item,
+.tutorial-item,
+.document-item {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  padding: 1em;
+  margin-top: 1em;
+}
+
+.description {
+  width: 70%;
+}
+
+.buttons {
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.buttons button {
+  cursor: pointer;
+}
