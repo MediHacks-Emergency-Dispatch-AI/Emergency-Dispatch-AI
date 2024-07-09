@@ -1,0 +1,103 @@
+.community-page {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.introduction,
+.discussion-forums,
+.peer-review,
+.volunteer-network {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.introduction h1 {
+    font-size: 2em;
+    margin-top: 2em;
+}
+
+.introduction p {
+    width: 80%;
+    margin: auto;
+    font-size: 1.2em;
+    margin-top: 1em;
+}
+
+.discussion-forums h2,
+.peer-review h2,
+.volunteer-network h2 {
+    font-size: 1.8em;
+    margin-top: 2em;
+}
+
+.search-bar {
+    width: 50%;
+    height: 2em;
+    font-size: 1em;
+    margin-top: 1em;
+    display: block;
+    margin: auto;
+}
+
+.filter-options {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1em;
+    margin: auto;
+}
+
+.dropdown {
+    width: 30%;
+    height: 2em;
+    font-size: 1em;
+}
+
+.forum-threads,
+.review-list,
+.volunteer-opportunities {
+    width: 80%;
+    margin-top: 1em;
+    margin: auto;
+}
+
+.thread-item,
+.review-item,
+.opportunity-item {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    padding: 1em;
+    margin-top: 1em;
+}
+
+.description,
+.summary {
+    width: 70%;
+}
+
+.join-button,
+.view-button,
+.join-now-button {
+    width: 30%;
+    text-align: center;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 2.5em;
+}
+
+.submit-review-button,
+.sign-up-button {
+    width: 20%;
+    height: 3em;
+    font-size: 1em;
+    margin-top: 2em;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
