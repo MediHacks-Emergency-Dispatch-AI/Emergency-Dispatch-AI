@@ -1,0 +1,140 @@
+.training-page {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.introduction,
+.interactive-training,
+.performance-analytics,
+.certification {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.introduction h1 {
+  font-size: 2em;
+  margin-top: 2em;
+}
+
+.introduction p {
+  width: 80%;
+  margin: auto;
+  font-size: 1.2em;
+  margin-top: 1em;
+}
+
+.interactive-training h2 {
+  font-size: 1.8em;
+  margin-top: 2em;
+}
+
+.interactive-training p {
+  font-size: 1em;
+  margin-bottom: 1em;
+}
+
+.interactive-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.dropdown {
+  width: 30%;
+  height: 3em;
+  font-size: 1em;
+  margin-right: 1em;
+  display: inline-block;
+}
+
+.generate-button {
+  height: 3em;
+  width: 15em;
+  font-size: 1.2em;
+  margin-top: 1em;
+  display: block;
+  cursor: pointer;
+}
+
+.scenario-display {
+  width: 80%;
+  height: 10em;
+  border: 1px solid #ccc;
+  padding: 1em;
+  margin: 1em auto;
+  overflow-y: auto;
+}
+
+.scenario-display h3 {
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
+}
+
+.scenario-display p {
+  font-size: 1em;
+  margin-bottom: 1em;
+}
+
+.start-button {
+  height: 3em;
+  width: 15em;
+  font-size: 1.2em;
+  margin-top: 1em;
+  display: block;
+  cursor: pointer;
+}
+
+.response-options {
+  text-align: left;
+  margin-top: 1em;
+}
+
+.performance-analytics h2 {
+  font-size: 1.8em;
+  margin-top: 2em;
+}
+
+.analytics-dashboard {
+  width: 80%;
+  margin: auto;
+  text-align: left;
+}
+
+.overall-performance,
+.individual-scenario-performance,
+.strengths-areas-improvement {
+  margin-top: 1em;
+}
+
+.certification h2 {
+  font-size: 1.8em;
+  margin-top: 2em;
+}
+
+.certification-progress {
+  width: 80%;
+  margin: auto;
+  text-align: left;
+}
+
+.progress-bar {
+  width: 80%;
+  height: 2em;
+  margin-top: 1em;
+}
+
+.completed-modules,
+.upcoming-modules {
+  margin-top: 1em;
+}
+
+.download-certificate-button {
+  height: 3em;
+  width: 15em;
+  font-size: 1.2em;
+  margin-top: 1em;
+  display: block;
+  cursor: pointer;
+}
