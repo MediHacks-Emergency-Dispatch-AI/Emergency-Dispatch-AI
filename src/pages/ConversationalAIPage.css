@@ -1,0 +1,134 @@
+.conversational-ai-page {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.introduction,
+.live-demo,
+.feature-highlights,
+.testimonials {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.introduction h1 {
+    font-size: 2em;
+    margin-top: 2em;
+}
+
+.introduction p {
+    width: 80%;
+    margin: auto;
+    font-size: 1.2em;
+    margin-top: 1em;
+}
+
+.live-demo h2 {
+    font-size: 1.8em;
+    margin-top: 2em;
+}
+
+.live-demo p {
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+
+.interactive-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    width: 60%;
+    height: 2.5em;
+    padding: 0.5em;
+    font-size: 1em;
+}
+
+.voice-input,
+.submit-button {
+    height: 2.5em;
+    width: 2.5em;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.response-output-box {
+    width: 80%;
+    height: 10em;
+    border: 1px solid #ccc;
+    padding: 1em;
+    margin: 0 auto;
+    overflow-y: auto;
+}
+
+.feature-highlights h2 {
+    font-size: 1.8em;
+    margin-top: 2em;
+}
+
+.feature {
+    width: 80%;
+    margin: auto;
+    padding: 1em;
+    margin-top: 1em;
+    text-align: left;
+}
+
+.feature h3 {
+    font-size: 1.4em;
+}
+
+.feature p {
+    font-size: 1em;
+    margin-top: 0.5em;
+}
+
+.visual-example,
+.audio-example,
+.language-example {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.testimonials h2 {
+    font-size: 1.8em;
+    margin-top: 2em;
+}
+
+.testimonial {
+    width: 80%;
+    margin: auto;
+    padding: 1em;
+    margin-top: 1em;
+    display: flex;
+    align-items: center;
+}
+
+.testimonial img {
+    width: 20%;
+    margin-right: 1em;
+}
+
+.testimonial p {
+    width: 75%;
+}
+
+.case-study {
+    width: 80%;
+    margin: auto;
+    padding: 1em;
+    margin-top: 1em;
+}
+
+.case-study h3 {
+    font-size: 1.4em;
+}
+
+.case-study p {
+    font-size: 1em;
+    margin-top: 0.5em;
+}
