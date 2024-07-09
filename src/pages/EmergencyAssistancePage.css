@@ -1,0 +1,124 @@
+.emergency-assistance-page {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.introduction,
+.text-reporting,
+.speech-to-text,
+.custom-protocols,
+.dispatcher-training {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.introduction h1 {
+    font-size: 2em;
+    margin-top: 2em;
+}
+
+.introduction p {
+    width: 80%;
+    margin: auto;
+    font-size: 1.2em;
+    margin-top: 1em;
+}
+
+.text-reporting h2,
+.speech-to-text h2,
+.custom-protocols h2,
+.dispatcher-training h2 {
+    font-size: 1.8em;
+    margin-top: 2em;
+}
+
+.text-reporting p,
+.speech-to-text p,
+.custom-protocols p,
+.dispatcher-training p {
+    width: 80%;
+    margin: auto;
+    font-size: 1.2em;
+    margin-top: 1em;
+}
+
+.text-input,
+.text-input-box,
+.search-bar {
+    width: 60%;
+    height: 2em;
+    font-size: 1em;
+    margin-top: 1em;
+    display: block;
+    margin: auto;
+}
+
+.send-button,
+.live-chat-button,
+.speech-input-button,
+.speech-output-button,
+.sign-up-button {
+    width: 20%;
+    height: 2.5em;
+    font-size: 1em;
+    margin-top: 1em;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.send-button {
+    background-color: #007bff;
+}
+
+.live-chat-button {
+    background-color: #28a745;
+}
+
+.speech-input-button,
+.speech-output-button {
+    background-color: #007bff;
+}
+
+.sign-up-button {
+    background-color: #007bff;
+    margin-top: 2em;
+    height: 3em;
+}
+
+.text-output-box,
+.protocol-item,
+.training-module-item {
+    width: 60%;
+    height: 2em;
+    font-size: 1em;
+    margin-top: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0.5em;
+    display: block;
+    margin: auto;
+}
+
+.protocol-list,
+.training-modules {
+    width: 80%;
+    margin: auto;
+    margin-top: 1em;
+}
+
+.protocol-item,
+.training-module-item {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    padding: 1em;
+    margin-top: 1em;
+}
+
+.download-link,
+.access-link {
+    text-align: center;
+    width: 20%;
+}
