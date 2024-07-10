@@ -54,7 +54,6 @@ function ConversationalAIPage() {
                             <option value="en">English</option>
                             <option value="es">Spanish</option>
                             <option value="fr">French</option>
-                            <!-- Add more languages as needed -->
                         </select>
                     </div>
                 </div>
