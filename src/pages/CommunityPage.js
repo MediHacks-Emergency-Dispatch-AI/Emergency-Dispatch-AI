@@ -24,7 +24,6 @@ function CommunityPage() {
                         <p className="description">Discussion Thread Description</p>
                         <button className="join-button">Join Discussion</button>
                     </div>
-                    <!-- Repeat thread-item as needed -->
                 </div>
             </section>
 
@@ -36,7 +35,6 @@ function CommunityPage() {
                         <p className="summary">Call Review Summary</p>
                         <button className="view-button">View Review</button>
                     </div>
-                    <!-- Repeat review-item as needed -->
                 </div>
                 <button className="submit-review-button">Submit Review</button>
             </section>
@@ -50,7 +48,6 @@ function CommunityPage() {
                         <p className="description">Volunteer Opportunity Description</p>
                         <button className="join-now-button">Join Now</button>
                     </div>
-                    <!-- Repeat opportunity-item as needed -->
                 </div>
             </section>
         </div>
