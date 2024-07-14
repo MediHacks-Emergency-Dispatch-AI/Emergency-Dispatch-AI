@@ -1,70 +1,181 @@
-# Getting Started with Create React App
+# Emergency Dispatch AI
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Structure
 
-## Available Scripts
+```plaintext
+emergency-dispatch-ai/
+├── public/
+│ ├── index.html
+│ └── ...
+├── src/
+│ ├── components/
+│ │ ├── Header.js
+│ │ ├── Header.css
+│ │ ├── Footer.js
+│ │ ├── Footer.css
+│ │ └── NavigationBar.js
+│ │ └── NavigationBar.css
+│ ├── pages/
+│ │ ├── HomePage.js
+│ │ ├── HomePage.css
+│ │ ├── ConversationalAIPage.js
+│ │ ├── ConversationalAIPage.css
+│ │ ├── TrainingPage.js
+│ │ ├── TrainingPage.css
+│ │ ├── ResourcesPage.js
+│ │ ├── ResourcesPage.css
+│ │ ├── CommunityPage.js
+│ │ ├── CommunityPage.css
+│ │ ├── EmergencyAssistancePage.js
+│ │ ├── EmergencyAssistancePage.css
+│ │ ├── LoginSignupPage.js
+│ │ ├── LoginSignupPage.css
+│ ├── App.js
+│ ├── index.js
+│ └── ...
+├── backend/
+│ ├── models/
+│ │ ├── Discussion.js
+│ │ ├── Review.js
+│ │ ├── Volunteer.js
+│ │ ├── User.js
+│ │ ├── Volunteer.js
+│ ├── middleware/
+│ ├── auth.js
+│ ├── ML/
+│ │ ├── App.py
+│ │ ├── Label_encoders.joblib
+│ │ ├── scaler.joblib
+│ │ ├── trained_model.joblib
+│ ├── routes/
+│ │ ├── discussions.js
+│ │ ├── reviews.js
+│ │ ├── volunteers.js
+│ │ ├── emergency.js
+│ │ ├── auth.js
+│ ├── server.py
+│ ├── server.js
+│ ├── deepspeech-0.9.3-models.pbmm
+│ ├── deepspeech-0.9.3-models.scorer
+│ ├── requirements.txt
+│ └── fine_tuned_model/
+│ ├── config.json
+│ ├── generation_config.json
+│ ├── merges.txt
+│ ├── model.safetensors
+│ ├── special_tokens_map.json
+│ ├── tokenizer_config.json
+│ ├── vocab.json
+├── package.json
+└── README.md
+```
+# Project Description
 
-In the project directory, you can run:
+Our mission was clear: to develop an AI-driven platform that could assist emergency dispatchers in providing timely and effective help, particularly to disabled individuals. This wasn't just a project; it was a heartfelt endeavor aimed at making a real difference in people's lives.
 
-### `npm start`
+## Description of Each Page
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 1. `public/index.html`
+- **Description**: The main entry point of the application where the root HTML structure is defined.
+- **Language**: HTML
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 2. `src/components`
+- **Header.js**: The header component that includes the site logo and navigation bar.
+  - **Language**: JavaScript
+  - **Framework**: React
+- **Header.css**: Styling for the header component.
+  - **Language**: CSS
+- **Footer.js**: The footer component that includes links to privacy policy, terms of service, and contact us.
+  - **Language**: JavaScript
+  - **Framework**: React
+- **Footer.css**: Styling for the footer component.
+  - **Language**: CSS
+- **NavigationBar.js**: The navigation bar component for site-wide navigation.
+  - **Language**: JavaScript
+  - **Framework**: React
+- **NavigationBar.css**: Styling for the navigation bar component.
+  - **Language**: CSS
 
-### `npm test`
+### 3. `src/pages`
+- **HomePage.js**: The home page of the application, which includes an ECG animation, hero section, key features, creators, and call to action.
+  - **Language**: JavaScript
+  - **Framework**: React
+- **HomePage.css**: Styling for the home page.
+  - **Language**: CSS
+- **ConversationalAIPage.js**: The Conversational AI page that showcases the AI model's capabilities with a live demo.
+  - **Language**: JavaScript
+  - **Framework**: React
+- **ConversationalAIPage.css**: Styling for the Conversational AI page.
+  - **Language**: CSS
+- **TrainingPage.js**: The training page for dispatchers to practice emergency scenarios.
+  - **Language**: JavaScript
+  - **Framework**: React
+- **TrainingPage.css**: Styling for the training page.
+  - **Language**: CSS
+- **ResourcesPage.js**: The resources page providing various emergency training materials and guides.
+  - **Language**: JavaScript
+  - **Framework**: React
+- **ResourcesPage.css**: Styling for the resources page.
+  - **Language**: CSS
+- **CommunityPage.js**: The community page for discussions, reviews, and volunteer opportunities.
+  - **Language**: JavaScript
+  - **Framework**: React
+- **CommunityPage.css**: Styling for the community page.
+  - **Language**: CSS
+- **EmergencyAssistancePage.js**: The emergency assistance page providing tools for text and speech-based emergency reporting.
+  - **Language**: JavaScript
+  - **Framework**: React
+- **EmergencyAssistancePage.css**: Styling for the emergency assistance page.
+  - **Language**: CSS
+- **LoginSignupPage.js**: The login and signup page for user authentication.
+  - **Language**: JavaScript
+  - **Framework**: React
+- **LoginSignupPage.css**: Styling for the login and signup page.
+  - **Language**: CSS
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 4. `src`
+- **App.js**: The main App component that serves as the root component for the React application.
+  - **Language**: JavaScript
+  - **Framework**: React
+- **index.js**: The entry point for the React application, rendering the App component.
+  - **Language**: JavaScript
+  - **Framework**: React
 
-### `npm run build`
+### 5. `backend`
+- **models**: Contains data models for discussions, reviews, volunteers, and users.
+  - **Language**: JavaScript (Node.js)
+- **middleware**: Contains middleware functions for the backend.
+  - **Language**: JavaScript (Node.js)
+- **auth.js**: Handles authentication-related logic.
+  - **Language**: JavaScript (Node.js)
+- **ML**: Contains machine learning-related files including the main Python application and model files.
+  - **Language**: Python
+- **routes**: Contains route handlers for different API endpoints such as discussions, reviews, volunteers, emergency, and auth.
+  - **Language**: JavaScript (Node.js)
+- **server.py**: Python server for handling machine learning-related requests.
+  - **Language**: Python
+- **server.js**: Node.js server for handling general API requests.
+  - **Language**: JavaScript (Node.js)
+- **requirements.txt**: Lists the Python dependencies for the project.
+  - **Language**: Text
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 6. `package.json`
+- **Description**: Contains the metadata and dependencies for the Node.js project.
+- **Language**: JSON
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 7. `README.md`
+- **Description**: Provides an overview and documentation of the project.
+- **Language**: Markdown
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Percentage of Coding Languages Used
+The percentage of coding languages used can be estimated based on the number of files written in each language:
 
-### `npm run eject`
+- **JavaScript (React and Node.js)**: 60%
+- **CSS**: 25%
+- **Python**: 10%
+- **HTML**: 2%
+- **JSON**: 1%
+- **Markdown**: 2%
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+These percentages are approximate and based on the number of files and their significance in the project. 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
