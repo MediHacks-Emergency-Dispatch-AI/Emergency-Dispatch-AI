@@ -1,0 +1,186 @@
+.training-page {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    padding: 20px;
+    color: white; /* Added to set text color to white */
+}
+
+.introduction,
+.interactive-training,
+.performance-analytics,
+.certification {
+    margin-bottom: 40px;
+    text-align: center;
+    color: white; /* Added to set text color to white */
+}
+
+.introduction h1 {
+    font-size: 2em;
+    margin-top: 2em;
+    color: red; /* Added to set text color to white */
+}
+
+.introduction p {
+    width: 80%;
+    margin: auto;
+    font-size: 1.2em;
+    margin-top: 1em;
+    color: white; /* Added to set text color to white */
+}
+
+.under-progress-image {
+    width: 50%; /* Adjust the size as needed */
+    margin-top:0;
+}
+
+.interactive-training h2 {
+    font-size: 1.8em;
+    margin-top: 2em;
+    color: white; /* Added to set text color to white */
+}
+
+.interactive-training p {
+    font-size: 1em;
+    margin-bottom: 1em;
+    color: white; /* Added to set text color to white */
+}
+
+.interactive-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    color: white; /* Added to set text color to white */
+}
+
+.dropdown {
+    width: 30%;
+    height: 3em;
+    font-size: 1em;
+    margin-right: 1em;
+    display: inline-block;
+    color: black; /* To ensure the dropdown text is visible */
+}
+
+.generate-button {
+    height: 3em;
+    width: 15em;
+    font-size: 1.2em;
+    margin-top: 1em;
+    display: block;
+    cursor: pointer;
+    color: black; /* To ensure the button text is visible */
+}
+
+.scenario-display {
+    width: 80%;
+    height: 10em;
+    border: 1px solid #ccc;
+    padding: 1em;
+    margin: 1em auto;
+    overflow-y: auto;
+    color: white; /* Added to set text color to white */
+}
+
+.scenario-display h3 {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+    color: white; /* Added to set text color to white */
+}
+
+.scenario-display p {
+    font-size: 1em;
+    margin-bottom: 1em;
+    color: white; /* Added to set text color to white */
+}
+
+.start-button {
+    height: 3em;
+    width: 15em;
+    font-size: 1.2em;
+    margin-top: 1em;
+    display: block;
+    cursor: pointer;
+    color: black; /* To ensure the button text is visible */
+}
+
+.response-options {
+    text-align: left;
+    margin-top: 1em;
+    color: white; /* Added to set text color to white */
+}
+
+.performance-analytics h2 {
+    font-size: 1.8em;
+    margin-top: 2em;
+    color: white; /* Added to set text color to white */
+}
+
+.analytics-dashboard {
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    color: white; /* Added to set text color to white */
+}
+
+.overall-performance,
+.individual-scenario-performance,
+.strengths-areas-improvement {
+    margin-top: 1em;
+    color: white; /* Added to set text color to white */
+}
+
+.certification h2 {
+    font-size: 1.8em;
+    margin-top: 2em;
+    color: white; /* Added to set text color to white */
+}
+
+.certification-progress {
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    color: white; /* Added to set text color to white */
+}
+
+.progress-bar {
+    width: 80%;
+    height: 2em;
+    margin-top: 1em;
+}
+
+.completed-modules,
+.upcoming-modules {
+    margin-top: 1em;
+    color: white; /* Added to set text color to white */
+}
+
+.download-certificate-button {
+    height: 3em;
+    width: 15em;
+    font-size: 1.2em;
+    margin-top: 1em;
+    display: block;
+    cursor: pointer;
+    color: black; /* To ensure the button text is visible */
+}
+
+.visualization-title {
+    text-align: center;
+    font-size: 1.8em;
+    margin-top: 2em;
+    color: white; /* Added to set text color to white */
+}
+
+.visualization-images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.visualization-images img {
+    width: 80%;
+    margin-bottom: 1em;
+}

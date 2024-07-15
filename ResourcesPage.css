@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'TAN-Nimbus';
+    src: url('C:/Users/KIIT/MEDIHACKS/emergency-dispatch-ai/public/Fonts/TAN-NIMBUS.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'BarlowCondensed-ExtraBold';
+    src: url('C:/Users/KIIT/MEDIHACKS/emergency-dispatch-ai/public/Fonts/BarlowCondensed-ExtraBold.otf') format('opentype');
+}
+.resources-page {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    padding: 20px;
+}
+
+.introduction,
+.tutorials-guides {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.resources-introduction-heading {
+    font-family: 'TAN-Nimbus', sans-serif;
+    color: #db4437 ;
+    font-size: 400px;
+    margin-top: 2em;
+}
+
+.introduction p {
+    width: 80%;
+    font-size: 1.2em;
+    margin-top: 1em;
+    color: white;
+}
+
+.tutorials-guides h2 {
+    font-size: 1.8em;
+    margin-top: 2em;
+    color: white;
+}
+
+.search-filter-container {
+    margin-top: 1em;
+    text-align: center;
+}
+
+.search-bar {
+    width: 50%;
+    height: 2em;
+    font-size: 1em;
+}
+
+.filter-options {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 10px; /* Set space between search bar and dropdown to 10px */
+}
+
+.dropdown {
+    width: 20%;
+    height: 2em;
+    font-size: 1em;
+}
+
+.tutorial-links {
+    width: 80%;
+    margin-top: 1em;
+    margin: auto;
+}
+
+.tutorial-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: url('C:\\Users\\KIIT\\MEDIHACKS\\emergency-dispatch-ai\\public\\Resourcebg.png') no-repeat center center; /* Set background image */
+    background-size: cover; /* Ensure the image covers the entire item */
+    border: 1px solid #ccc;
+    padding: 1em;
+    margin-bottom: 40px;
+    margin-top: 1em;
+    color: white;
+}
+
+.description {
+    flex: 0 0 20%;
+    font-family: 'BarlowCondensed-ExtraBold', sans-serif;
+    font-size: 40px;
+    text-align: left;
+    color: white;
+}
+
+iframe {
+    flex: 0 0 70%;
+}
+
+.buttons {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttons button {
+    cursor: pointer;
+}

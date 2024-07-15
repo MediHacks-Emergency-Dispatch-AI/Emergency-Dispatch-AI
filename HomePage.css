@@ -1,0 +1,155 @@
+@font-face {
+    font-family: 'TAN-Nimbus';
+    src: url('C:/Users/KIIT/MEDIHACKS/emergency-dispatch-ai/public/Fonts/TAN-NIMBUS.otf') format('opentype');
+}
+@font-face {
+    font-family: 'SixCaps';
+    src: url('C:/Users/KIIT/MEDIHACKS/emergency-dispatch-ai/public/Fonts/SixCaps.ttf') format('TrueType');
+}
+
+.home-page {
+    font-family: Arial, sans-serif;
+    background: black;
+    background-size: cover;
+}
+
+.home-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px; /* Set a fixed height for the header */
+    background: black;
+    text-align: center;
+    position: relative;
+    overflow: hidden; /* Ensure the canvas stays within the header */
+}
+
+.custom-text {
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 2; /* Ensure the text is above the canvas */
+}
+
+.home-large-text {
+    font-family: 'TAN-Nimbus', sans-serif;
+    color: white;
+    font-size: 150px; /* Adjust size as needed */
+}
+
+.home-medium-text {
+    font-family: 'TAN-Nimbus', sans-serif;
+    color: white;
+    font-size: 110px; /* Adjust size as needed */
+    margin-top: -20px; /* Reduce space between .large-text and .medium-text */
+}
+
+.home-small-text {
+    font-family: 'TAN-Nimbus', sans-serif;
+    color: red;
+    font-size: 24px; /* Adjust size as needed */
+}
+
+#ecgCanvas {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1; /* Ensure the canvas is behind the text */
+}
+
+.home-hero,
+.home-key-features,
+.home-how-it-works,
+.home-vision-beyond,
+.home-call-to-action {
+    padding: 50px 20px;
+    text-align: center;
+    background: transparent; /* Make individual sections' background transparent */
+}
+
+/* Change color to white for specific headings */
+.home-key-features h2,
+.home-how-it-works h2,
+.home-vision-beyond h2,
+.home-call-to-action h2 {
+    color: white;
+    font-size: 40px;
+}
+
+.home-hero {
+    color: #fff;
+    text-align: center;
+}
+
+.home-hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.home-features-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.home-feature h3{
+    color: #fbbc04;
+    font-size: 60px;
+    font-family: 'SixCaps', sans-serif;
+
+}
+
+.home-feature {
+    padding: 10px;
+    color: white;
+    background-color: red;
+    border-radius: 8px;
+}
+
+.home-meet-creators {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    background: transparent; /* Make the background transparent */
+    padding: 50px 20px;
+}
+
+.home-creators-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.home-creators-grid img {
+    max-width: 280px; /* Set max-width for images */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: Add rounded corners */
+}
+
+.home-steps {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.home-step {
+    max-width: 200px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #db4437}
+
+
+.home-vision-beyond {
+    text-align: center;
+    color: white;
+    background: transparent; /* Make the background transparent */
+    padding: 50px 20px;
+}
+
+.home-call-to-action {
+    text-align: center;
+    background: transparent; /* Make the background transparent */
+    padding: 50px 20px;
+}

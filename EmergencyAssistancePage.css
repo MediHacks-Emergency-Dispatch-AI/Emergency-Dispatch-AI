@@ -1,0 +1,173 @@
+@font-face {
+    font-family: 'TAN-Nimbus';
+    src: url('C:/Users/KIIT/MEDIHACKS/emergency-dispatch-ai/public/Fonts/TAN-NIMBUS.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'BodoniStd';
+    src: url('C:/Users/KIIT/MEDIHACKS/emergency-dispatch-ai/public/Fonts/BodoniStd.otf') format('opentype');
+}
+
+.emergency-assistance-page-unique {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    padding: 20px;
+    color: white;
+}
+
+.introduction-unique,
+.text-reporting-unique,
+.speech-to-text-unique {
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.introduction-unique h1 {
+    font-family: 'TAN-Nimbus', sans-serif;
+    color: #db4437;
+    font-size: 2em;
+    margin-top: 2em;
+    margin-bottom: 80px;
+}
+
+.introduction-unique p {
+    width: 80%;
+    font-size: 1.2em;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+
+.text-reporting-unique h2,
+.speech-to-text-unique h2 {
+    font-size: 1.8em;
+    font-family: 'BodoniStd', sans-serif;
+    color: #db4437;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.text-reporting-unique p,
+.speech-to-text-unique p {
+    width: 80%;
+    margin: auto;
+    font-size: 1.2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.text-input-unique,
+.text-input-box-unique {
+    width: 60%;
+    height: 2em;
+    font-size: 1em;
+    margin-top: 40px;
+    margin-bottom: 1em;
+    display: block;
+    margin: auto;
+    color: black;
+}
+
+.send-button-unique,
+.live-chat-button-unique,
+.speech-input-button-unique,
+.speech-output-button-unique {
+    width: 20%;
+    height: 2.5em;
+    font-size: 1em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.emergency-alert-button {
+    width: 20%;
+    height: 2.5em;
+    font-size: 60px;
+    font-family: 'BodoniStd', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.send-button-unique {
+    background-color: #007bff;
+    margin-right: 10px; /* Added margin */
+}
+
+.send-button-unique:hover {
+    background-color: #0056b3;
+}
+
+.live-chat-button-unique {
+    background-color: #28a745;
+    margin-top: 1em;
+}
+
+.live-chat-button-unique:hover {
+    background-color: #218838;
+}
+
+.speech-input-button-unique,
+.speech-output-button-unique {
+    background-color: #007bff;
+}
+
+.speech-input-button-unique:hover,
+.speech-output-button-unique:hover {
+    background-color: #0056b3;
+}
+
+.emergency-alert-button {
+    background-color: #dc3545;
+    font-size: 1.5em;
+    width: 40%;
+    height: 3em;
+    margin-top: 2em;
+}
+
+.emergency-alert-button:hover {
+    background-color: #c82333;
+}
+
+.text-output-box-unique {
+    width: 59%;
+    height: 2em;
+    font-size: 1em;
+    margin-top: 10px;
+    margin-bottom: 1em; /* Added margin */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0.5em;
+    display: block;
+    margin-left: 240px;
+    color: black;
+}
+
+.file-input-unique {
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    display: block;
+}
+
+.loading-unique {
+    color: #007bff;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.thank-you-image-unique {
+    display: block;
+    margin: 0 auto 0;
+    max-width: 50%;
+    height: auto;
+}

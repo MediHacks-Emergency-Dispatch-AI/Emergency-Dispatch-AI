@@ -1,0 +1,177 @@
+@font-face {
+    font-family: 'TAN-Nimbus';
+    src: url('C:/Users/KIIT/MEDIHACKS/emergency-dispatch-ai/public/Fonts/TAN-NIMBUS.otf') format('opentype');
+}
+@font-face {
+    font-family: 'BarlowCondensed-Medium';
+    src: url('C:/Users/KIIT/MEDIHACKS/emergency-dispatch-ai/public/Fonts/BarlowCondensed-Medium.otf') format('opentype');
+}
+.login-signup-page {
+    font-family: Arial, sans-serif;
+    background: #000; /* Set background to black */
+    color: #fff; /* Set text color to white */
+    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.auth-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.auth-header h1 {
+    font-family: 'TAN-Nimbus', sans-serif;
+    font-size: 2.5em;
+    color: red;
+    margin-bottom: 10px;
+}
+
+.auth-header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.auth-header nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.auth-header nav ul li a {
+    text-decoration: none;
+    color: #fff; /* Set link color to white */
+}
+
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.form-card {
+    background: url('C:\\Users\\KIIT\\MEDIHACKS\\emergency-dispatch-ai\\public\\cardbg1.png') no-repeat center center; /* Set background image */
+    background-size: cover; /* Ensure the image covers the entire card */
+    color: #fff; /* Set text color to white */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.tabs button {
+    background: none;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    padding-bottom: 5px;
+    color: #fff; /* Set tab button color to white */
+}
+
+.tabs .active {
+    border-bottom: 2px solid #fff; /* Set active tab border color to white */
+}
+
+.form {
+    display: none;
+}
+
+.form.active {
+    display: block;
+}
+
+.form h2 {
+    margin-bottom: 20px;
+    font-size: 1.8em;
+}
+
+.form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form input {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background: #A9A9A9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+.forgot-password {
+    display: block;
+    margin-top: 10px;
+    text-align: right;
+    color: #fff; /* Set forgot password link color to white */
+}
+
+.social-login,
+.social-signup {
+    margin-top: 20px;
+}
+
+.social-login button,
+.social-signup button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.google-login,
+.google-signup {
+    background: #db4437;
+    color: white;
+}
+
+.facebook-login,
+.facebook-signup {
+    background: #A9A9A9;
+    color: white;
+}
+
+.auth-footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    background: #111; /* Darken the footer background */
+    border-top: 1px solid #ccc;
+}
+
+.quick-links a {
+    margin: 0 10px;
+    font-family: 'BarlowCondensed-Medium', sans-serif;
+    text-decoration: none;
+    color: #fff; /* Set quick links color to white */
+}
+
+.contact-info p {
+    margin-top: 10px;
+    font-family: 'BarlowCondensed-Medium', sans-serif;
+    color: #fff; /* Set contact info text color to white */
+
+}

@@ -1,0 +1,294 @@
+@font-face {
+    font-family: 'TAN-Nimbus';
+    src: url('C:/Users/KIIT/MEDIHACKS/emergency-dispatch-ai/public/Fonts/TAN-NIMBUS.otf') format('opentype');
+}
+
+.community-page {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: black;
+}
+
+.introduction,
+.discussion-forums,
+.peer-review,
+.volunteer-network {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.community-hub-header h1 {
+    font-family: 'TAN-Nimbus', sans-serif;
+    color: #db4437;
+    margin-top: 40px;
+    font-size: 3.5em;
+}
+
+.introduction p {
+    width: 80%;
+    color: white;
+    margin: auto;
+    font-size: 1.2em;
+    margin-top: 1em;
+}
+
+.discussion-forums h2,
+.peer-review h2,
+.volunteer-network h2 {
+    font-size: 1.8em;
+    color: white;
+    margin-top: 2em;
+}
+
+.peer-review-text,
+.volunteer-network-text {
+    color: white;
+}
+
+.search-container {
+    width: 50%;
+    margin: auto;
+    display: inline-block;
+}
+
+.search-bar {
+    width: 65%;
+    height: 2em;
+    font-size: 1em;
+    margin-top: 1em;
+}
+
+.search-button {
+    width: 30%;
+    height: 2em;
+    font-size: 1em;
+    margin-top: 1em;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.filter-options {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1em;
+    margin: auto;
+}
+
+.dropdown {
+    width: 30%;
+    height: 2em;
+    font-size: 1em;
+}
+
+.discussion-titles,
+.review-summaries {
+    width: 80%;
+    margin: 1em auto;
+    text-align: left;
+}
+
+.discussion-title-item,
+.review-summary-item {
+    border: 1px solid #ccc;
+    padding: 1em;
+    margin-top: 1em;
+    background-color: #f9f9f9;
+}
+
+.forum-threads,
+.review-list,
+.volunteer-opportunities {
+    width: 80%;
+    margin-top: 1em;
+    margin: auto;
+}
+
+.thread-item,
+.review-item,
+.opportunity-item {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    padding: 1em;
+    margin-top: 1em;
+}
+
+.description,
+.summary {
+    width: 70%;
+}
+
+.join-button,
+.view-button{
+    width: 30%;
+    text-align: center;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 2.5em;
+}
+.join-now-button {width: 30%;
+
+    text-align: center;
+    align-self: center;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 2.5em;}
+
+.submit-review-button,
+.sign-up-button {
+    width: 20%;
+    height: 3em;
+    font-size: 1em;
+    margin-top: 2em;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Additional Styles */
+.user-discussion {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    width: 80%;
+}
+
+.user-discussion h2 {
+    font-size: 1.5em;
+}
+
+.user-discussion p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.start-discussion-button {
+    margin: 20px 0;
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.discussion-form,
+.review-form {
+    margin: 20px auto;
+    text-align: left;
+    width: 80%;
+    color: white;
+}
+
+.discussion-form h2,
+.review-form h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.discussion-form form,
+.review-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.discussion-form input,
+.discussion-form textarea,
+.review-form input,
+.review-form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 1em;
+}
+
+.discussion-form button,
+.review-form button {
+    padding: 10px;
+    font-size: 1em;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Slider Styles */
+body {
+    background-color: #f8fafc;
+}
+
+.container {
+    padding: 2rem;
+}
+
+.slider-wrapper {
+    position: relative;
+    max-width: 33.6rem; /* Half of the original 48rem */
+    margin: 0 auto;
+}
+
+.slider {
+    display: flex;
+    aspect-ratio: 16 / 9;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    height: auto; /* Let the height adjust automatically to the new width */
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+    border-radius: 0.5rem;
+    -ms-overflow-style: none; /* Hide scrollbar IE and Edge */
+    scrollbar-width: none; /* Hide scrollbar Firefox */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.slider::-webkit-scrollbar {
+    display: none;
+}
+
+.slider img {
+    flex: 1 0 70%;
+    scroll-snap-align: start;
+    object-fit: cover;
+}
+
+.slider-nav {
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    bottom: 1.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.slider-nav a {
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.75;
+    transition: opacity ease 250ms;
+}
+
+.slider-nav a:hover {
+    opacity: 1;
+}
+
+/* Volunteer Description Styles */
+.volunteer-description {
+    width: 70%;
+    font-family: 'TAN-Nimbus', sans-serif;
+    text-align: left;
+}
