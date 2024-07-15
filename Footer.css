@@ -1,0 +1,23 @@
+/* src/components/Footer.css */
+.footer {
+    text-align: center;
+    padding: 5px;
+    background: url('C:\\Users\\KIIT\\MEDIHACKS\\emergency-dispatch-ai\\public\\footerbg.png') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: #fff;
+}

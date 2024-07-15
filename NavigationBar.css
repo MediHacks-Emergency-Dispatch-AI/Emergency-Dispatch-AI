@@ -1,0 +1,51 @@
+/* src/components/NavigationBar.css */
+.navigation {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: black;
+    padding: 0; /* Ensure no padding */
+    margin: 0; /* Remove any default margin */
+}
+
+.navigation ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation ul li {
+    display: inline;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color: red; /* Update color to white for contrast */
+    font-size: 16px;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.navigation ul li a::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: -5px;
+    left: 0;
+    background-color: white; /* Change to the desired underline color */
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+}
+
+.navigation ul li a:hover {
+    color: white;
+}
+
+.navigation ul li a:hover::before {
+    visibility: visible;
+    transform: scaleX(1);
+}
